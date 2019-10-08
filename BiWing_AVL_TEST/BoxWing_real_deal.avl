@@ -1,0 +1,119 @@
+Box Wing
+0.0				| Mach
+0 0 0.0			| iYsym  iZsym  Zsym
+2051.30426603 12.5079528416 82.0			| Sref   Cref   Bref
+0.0 0.0 0.0			| Xref   Yref   Zref
+0.0				| CDp  (optional)
+#==============================================================
+#
+SURFACE
+LowerWing
+10  1.0  20  -2.0  |  Nchord   Cspace   Nspan  Sspace
+
+YDUPLICATE
+0.0
+
+ANGLE
+0.0
+
+INDEX
+1
+#-----------------------
+SECTION
+-3.12698821041 0.0 0.0   12.5079528416  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
+AFIL
+"C:\eclipse\workspace\AircraftDesign\Airfoils\e423\e423.dat"
+#-----------------------
+SECTION
+-3.12698821041 20.5 0.0   12.5079528416  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
+AFIL
+"C:\eclipse\workspace\AircraftDesign\Airfoils\e423\e423.dat"
+CONTROL
+Aileron  1.0  0.75  0. 0. 0.  -1.0 | Name  gain  Xhinge  XYZhvec  SgnDup
+#-----------------------
+SECTION
+-3.12698821041 24.6 0.0   12.5079528416  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
+AFIL
+"C:\eclipse\workspace\AircraftDesign\Airfoils\e423\e423.dat"
+CONTROL
+Aileron  1.0  0.75  0. 0. 0.  -1.0 | Name  gain  Xhinge  XYZhvec  SgnDup
+#-----------------------
+SECTION
+-3.12698821041 36.9 0.0   12.5079528416  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
+AFIL
+"C:\eclipse\workspace\AircraftDesign\Airfoils\e423\e423.dat"
+CONTROL
+Aileron  1.0  0.75  0. 0. 0.  -1.0 | Name  gain  Xhinge  XYZhvec  SgnDup
+#-----------------------
+SECTION
+-3.12698821041 41.0 0.0   12.5079528416  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
+AFIL
+"C:\eclipse\workspace\AircraftDesign\Airfoils\e423\e423.dat"
+#==============================================================
+#
+SURFACE
+UpperWing
+10  1.0  20  -2.0  |  Nchord   Cspace   Nspan  Sspace
+
+YDUPLICATE
+0.0
+
+ANGLE
+0.0
+
+INDEX
+4
+#-----------------------
+SECTION
+-5.62857877873 0.0 24.6   12.5079528416  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
+AFIL
+"C:\eclipse\workspace\AircraftDesign\Airfoils\e423\e423.dat"
+#-----------------------
+SECTION
+-5.62857877873 24.6 24.6   12.5079528416  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
+AFIL
+"C:\eclipse\workspace\AircraftDesign\Airfoils\e423\e423.dat"
+#-----------------------
+SECTION
+-5.62857877873 41.0 24.6   12.5079528416  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
+AFIL
+"C:\eclipse\workspace\AircraftDesign\Airfoils\e423\e423.dat"
+#==============================================================
+#
+SURFACE
+End Plate
+10  1.0  20  -1.0  |  Nchord   Cspace   Nspan  Sspace
+
+YDUPLICATE
+0.0
+
+ANGLE
+0.0
+
+INDEX
+5
+#-----------------------
+SECTION
+-3.12698821041 41.0 0.0   12.5079528416  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
+AFIL
+"C:\eclipse\workspace\AircraftDesign\Airfoils\NACA0012\NACA0012.dat"
+#-----------------------
+SECTION
+-0.675429453448 41.0 0.492   10.0063622733  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
+AFIL
+"C:\eclipse\workspace\AircraftDesign\Airfoils\NACA0012\NACA0012.dat"
+#-----------------------
+SECTION
+3.12698821041 41.0 12.3   5.00318113665  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
+AFIL
+"C:\eclipse\workspace\AircraftDesign\Airfoils\NACA0012\NACA0012.dat"
+#-----------------------
+SECTION
+-3.07695639904 41.0 24.108   10.0063622733  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
+AFIL
+"C:\eclipse\workspace\AircraftDesign\Airfoils\NACA0012\NACA0012.dat"
+#-----------------------
+SECTION
+-5.62857877873 41.0 24.6   12.5079528416  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
+AFIL
+"C:\eclipse\workspace\AircraftDesign\Airfoils\NACA0012\NACA0012.dat"
